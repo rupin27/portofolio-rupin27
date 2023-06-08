@@ -10,3 +10,7 @@ npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-
 
 npm install --legacy-peer-deps -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
+
+npm install --legacy-peer-deps three
+
+free3D, sketchFab site for 3D models
