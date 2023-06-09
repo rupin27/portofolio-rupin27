@@ -5,5 +5,5 @@ const Feedbacks = () => {
     <div>Feedbacks</div>
   )
 }
-
+ 
 export default Feedbacks
