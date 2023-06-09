@@ -19,3 +19,8 @@ npx tailwindcss init -p
 npm install --legacy-peer-deps three
 
 free3D, sketchFab site for 3D models
+
+$ git fetch origin
+# Fetches updates made to an online repository
+$ git merge origin YOUR_BRANCH_NAME
+# Merges updates made online with your local work

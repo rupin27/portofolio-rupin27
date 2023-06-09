@@ -19,11 +19,15 @@ import {
     starbucks,
     tesla,
     shopify,
+    elucidata,
+    naralytics,
+    UMass,
     carrent,
     jobit,
     tripguide,
     threejs,
   } from "../assets";
+
   
   export const navLinks = [
     {
@@ -116,57 +120,46 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Software Developer Intern",
+      company_name: "Naralytics",
+      icon: naralytics,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "May 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed a React Native application with custom UI/UX components ensuring versatility and code reusability across iOS and Android platforms and, more importantly, improving performance by reducing load-time by ~4s.",
+        "Introduced a login authentication flow and payment setup using Firebase for Google-backed security.",
+        "Notable: Emotional Recognition and Sentimental Analysis BERT Model",
+        "Developed a labeling model utilizing libraries like transformers, torch-vision, PyTorch lightning, numpy, pandas, and the BERT language model for psychometric assessments and HUMINT analysis.",
+        "Trained the model using AWS EC2 instance, effectively predicting sentiments on raw text and generating a labeled dataset with a sentiment prediction accuracy of 95%.",
+        "Conducted testing of the classifiers against reversed training data, employing multiple evaluation metrics such as Jaccard Score, Hamming Loss, F-1, and AUC.",
       ],
     },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      {
+      title: "CICS (College of Information and Computer Science) Mentor",
+      company_name: "University of Massachusetts Amherst",
+      icon: UMass,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Aug 2021 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Mentored students in an academic computer science context, fostering cultural competency and professional growth.",
+        "Engaged in leadership opportunities to support students' confidence and advancement in the computing profession.",
+        "Utilized negotiation, communication, and conflict management skills to facilitate effective discussions.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Software Engineer Intern",
+      company_name: "Elucidata",
+      icon: elucidata,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "May 2020 - Sep 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed and maintained software systems and computing infrastructure utilizing Java and JavaScript, while effectively identifying and resolving defects through troubleshoots, supporting data architecture, and generating reports.",
+        "Actively participated in Agile(Scrum) methodologies, engaging in optimizing memory consumption employing techniques such as memoization and memory pooling, resulting in an enhancement in runtime performance by up to 30%.",
+        "Leveraged SQL query tools and frameworks to develop and manage database operations, ensuring efficient data storage and retrieval.",
       ],
     },
+
+
   ];
   
   const testimonials = [
