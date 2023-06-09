@@ -21,6 +21,17 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import mysql from "./tech/mysql.png"
+import linux from "./tech/linux.png"
+import reactnative from "./tech/reactnative.png"
+import jira from "./tech/jira.png"
+import java from "./tech/java.png"
+import firebase from "./tech/firebase.png"
+import cplusplus from "./tech/cplusplus.png"
+import c from "./tech/c.png"
+import aws from "./tech/aws.png"
+import api from "./tech/api.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -58,6 +69,17 @@ export {
   tailwind,
   typescript,
   threejs,
+  python,
+  mysql,
+  linux,
+  reactnative,
+  jira,
+  java,
+  firebase,
+  cplusplus,
+  c,
+  aws,
+  api,
   meta,
   shopify,
   starbucks,

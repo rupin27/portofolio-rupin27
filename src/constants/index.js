@@ -15,6 +15,17 @@ import {
     git,
     figma,
     docker,
+    python,
+    mysql,
+    linux,
+    reactnative,
+    jira,
+    java,
+    firebase,
+    cplusplus,
+    c,
+    aws,
+    api,
     meta,
     starbucks,
     tesla,
@@ -65,55 +76,63 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "Python",     //Done
+      icon: python,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "Java",      //Done
+      icon: java,
     },
     {
-      name: "JavaScript",
+      name: "C++",        //Done
+      icon: cplusplus,
+    },
+    {
+      name: "JavaScript",    //Done
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
+      name: "Node.js",     //Done
       icon: nodejs,
     },
     {
-      name: "MongoDB",
+      name: "HTML 5",         //Done
+      icon: html,
+    },
+    {
+      name: "CSS3",           //Done
+      icon: css,      
+    },
+    {
+      name: "React Native",       //Done
+      icon: reactnative,
+    },
+    {
+      name: "REST API",          //Done
+      icon: api,
+    },
+    {
+      name: "SQL",               //Done
+      icon: mysql,
+    },
+    {
+      name: "MongoDB",       //Done
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "AWS",             //Done
+      icon: aws,
     },
     {
-      name: "git",
+      name: "Firebase",          //Done
+      icon: firebase,
+    },
+    {
+      name: "Git",            //Done
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
+      name: "Docker",          //Done
       icon: docker,
     },
   ];
@@ -158,8 +177,6 @@ import {
         "Leveraged SQL query tools and frameworks to develop and manage database operations, ensuring efficient data storage and retrieval.",
       ],
     },
-
-
   ];
   
   const testimonials = [
