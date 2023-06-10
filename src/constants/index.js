@@ -3,6 +3,9 @@ import {
     backend,
     creator,
     web,
+    nara,
+    faceRecognition,
+    connect4,
     javascript,
     typescript,
     html,
@@ -33,6 +36,9 @@ import {
     elucidata,
     naralytics,
     UMass,
+    gyouReLee,
+    rohitJagre,
+    krusell,
     carrent,
     jobit,
     tripguide,
@@ -182,38 +188,37 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Working with Rupin was a delight; his tenacity, adaptability, and remarkable results laid a solid foundation for subsequent product development.",
+      name: "Gyou-Re Lee",
+      designation: "CEO/ Founder",
+      company: "Naralytics Inc.",
+      image: gyouReLee,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Rupin at Elucidata showcased exceptional skills and dedication, driving significant improvements in software performance and data management. Highly recommended!",
+      name: "Rohit Jagre",
+      designation: "Technical Lead",
+      company: "Elucidata",
+      image: rohitJagre,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Rupin's exceptional mentorship skills and impactful leadership make him an invaluable asset to any organization.",
+      name: "Brian Krusell",
+      designation: "Director of Career & Student Development",
+      company: "UMass Amherst",
+      image: krusell,
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      name: "Naralytics",
+      description: "Naralytics is a groundbreaking personal, private relationship path finder app that empowers users to navigate the complexities of relationships, providing valuable insights and actionable advice to foster meaningful connections and enhance personal growth.",
       tags: [
         {
-          name: "react",
+          name: "react native",
           color: "blue-text-gradient",
         },
         {
@@ -221,54 +226,54 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
-          color: "pink-text-gradient",
+          name: "aws",
+          color: "orange-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: nara,
+      source_code_link: "https://www.naralytics.com/",
     },
     {
-      name: "Job IT",
+      name: "Face Recognition GUI App",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "The Face Recognition GUI Application is a Python-based solution developed for seamless user interactions and large-scale security authentication. It incorporates a Tinker-based GUI and utilizes a trained Convolutional Neural Network (CNN) for accurate classification.",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "openCV",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tinker-GUI",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: faceRecognition,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Connect 4 AI",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Connect AI is a Python-based app that enhances the game of Connect 4. It utilizes advanced algorithms to develop intelligent gameplay agents, optimizing decision-making capabilities for an enhanced gaming experience.",
       tags: [
         {
-          name: "nextjs",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "heuristic",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "α-β pruning",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: connect4,
+      source_code_link: "https://github.com/rupin27/connect",
     },
   ];
   

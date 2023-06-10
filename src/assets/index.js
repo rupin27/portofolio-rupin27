@@ -5,6 +5,9 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import connect4 from "./connect4.png";
+import faceRecognition from "./faceRecognition.png";
+import nara from "./nara.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -40,6 +43,9 @@ import tesla from "./company/tesla.png";
 import naralytics from "./company/naralytics.png"
 import elucidata from "./company/elucidata.png"
 import UMass from "./company/UMass.png"
+import gyouReLee from "./company/gyouReLee.jpeg"
+import rohitJagre from "./company/rohitJagre.jpeg"
+import krusell from "./company/krusell.jpg"
 
 
 import carrent from "./carrent.png";
@@ -56,6 +62,9 @@ export {
   github,
   menu,
   close,
+  connect4,
+  nara,
+  faceRecognition,
   css,
   docker,
   figma,
@@ -86,6 +95,9 @@ export {
   tesla,
   naralytics,
   UMass,
+  gyouReLee,
+  rohitJagre,
+  krusell,
   elucidata,
   carrent,
   jobit,
