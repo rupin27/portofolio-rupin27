@@ -6,6 +6,7 @@ import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import linkedin from "./linkedin.png";
+import instagram from "./instagram.png";
 import connect4 from "./connect4.png";
 import faceRecognition from "./faceRecognition.png";
 import nara from "./nara.png";
@@ -43,6 +44,8 @@ import UMass from "./company/UMass.png"
 import gyouReLee from "./company/gyouReLee.jpeg"
 import rohitJagre from "./company/rohitJagre.jpeg"
 import krusell from "./company/krusell.jpg"
+import rupin from "./company/rupinPort.jpg";
+import rupin2 from "./company/rupinPort.png";
 
 export {
   rmLogo,
@@ -53,6 +56,7 @@ export {
   web,
   github,
   linkedin,
+  instagram,
   menu,
   close,
   connect4,
@@ -87,5 +91,7 @@ export {
   gyouReLee,
   rohitJagre,
   krusell,
+  rupin,
+  rupin2,
   elucidata,
 };

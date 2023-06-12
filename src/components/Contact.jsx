@@ -5,7 +5,7 @@ import { styles } from "../style";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import { github, linkedin } from "../assets";
+import { github, linkedin, instagram } from "../assets";
 import Earth from "./canvas/Earth";
 
 //template_varab27
@@ -62,6 +62,9 @@ const Contact = () => {
           </div>
           <div onClick={() => window.open("https://www.linkedin.com/in/rupinmehra/", "_blank")} className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'>
             <img src={linkedin} alt='source code' className='w-1/2 h-1/2 object-contain'/>
+          </div>
+          <div onClick={() => window.open("https://www.instagram.com/rupin27/", "_blank")} className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'>
+            <img src={instagram} alt='source code' className='w-1/2 h-1/2 object-contain'/>
           </div>
         </div>
         <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col gap-8">
