@@ -5,6 +5,7 @@ import { styles } from "../style";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { github, linkedin } from "../assets";
 import Earth from "./canvas/Earth";
 
 //template_varab27
@@ -55,7 +56,14 @@ const Contact = () => {
       <motion.div variants={slideIn('left', 'tween', 0.2, 1)} className='flex-[0.75] bg-black-100 p-8 rounded-2xl'>
         <p className={styles.sectionSubText}> Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
-
+        <div className="flex flex-row gap-5">
+          <div onClick={() => window.open("https://github.com/rupin27", "_blank")} className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'>
+            <img src={github} alt='source code' className='w-1/2 h-1/2 object-contain'/>
+          </div>
+          <div onClick={() => window.open("https://www.linkedin.com/in/rupinmehra/", "_blank")} className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'>
+            <img src={linkedin} alt='source code' className='w-1/2 h-1/2 object-contain'/>
+          </div>
+        </div>
         <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col gap-8">
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Name</span>

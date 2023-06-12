@@ -5,6 +5,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import linkedin from "./linkedin.png";
 import connect4 from "./connect4.png";
 import faceRecognition from "./faceRecognition.png";
 import nara from "./nara.png";
@@ -51,6 +52,7 @@ export {
   mobile,
   web,
   github,
+  linkedin,
   menu,
   close,
   connect4,
