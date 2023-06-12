@@ -110,10 +110,10 @@ import {
     //   name: "React.js",          //Done
     //   icon: reactjs,
     // },
-    {
-      name: "React Native",       //Done
-      icon: reactnative,
-    },
+    // {
+    //   name: "React Native",       //Done
+    //   icon: reactnative,
+    // },
     {
       name: "REST API",          //Done
       icon: api,
@@ -134,10 +134,10 @@ import {
     //   name: "Linux",             //Done
     //   icon: linux,
     // },
-    {
-      name: "Firebase",          //Done
-      icon: firebase,
-    },
+    // {
+    //   name: "Firebase",          //Done
+    //   icon: firebase,
+    // },
     {
       name: "Git",            //Done
       icon: git,
