@@ -1,4 +1,5 @@
 import rmLogo from "./rmLogo.svg";
+import favicon from "./favicon.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -44,6 +45,7 @@ import krusell from "./company/krusell.jpg"
 
 export {
   rmLogo,
+  favicon,
   backend,
   creator,
   mobile,
