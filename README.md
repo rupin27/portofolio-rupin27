@@ -1,8 +1,5 @@
 Thank you for viewing my work! This website would be available soon. Stay tuned!
 
-
-
-
 npm create vite@latest ./ -- --template react
 
 npm install

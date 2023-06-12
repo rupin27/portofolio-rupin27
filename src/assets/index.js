@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import rmLogo from "./rmLogo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -36,10 +35,6 @@ import c from "./tech/c.png"
 import aws from "./tech/aws.png"
 import api from "./tech/api.png"
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import naralytics from "./company/naralytics.png"
 import elucidata from "./company/elucidata.png"
 import UMass from "./company/UMass.png"
@@ -47,13 +42,7 @@ import gyouReLee from "./company/gyouReLee.jpeg"
 import rohitJagre from "./company/rohitJagre.jpeg"
 import krusell from "./company/krusell.jpg"
 
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
 export {
-  logo,
   rmLogo,
   backend,
   creator,
@@ -89,17 +78,10 @@ export {
   c,
   aws,
   api,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   naralytics,
   UMass,
   gyouReLee,
   rohitJagre,
   krusell,
   elucidata,
-  carrent,
-  jobit,
-  tripguide,
 };

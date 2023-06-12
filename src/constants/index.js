@@ -29,19 +29,12 @@ import {
     c,
     aws,
     api,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     elucidata,
     naralytics,
     UMass,
     gyouReLee,
     rohitJagre,
     krusell,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
   } from "../assets";
 
@@ -89,6 +82,10 @@ import {
       name: "Java",      //Done
       icon: java,
     },
+    // {
+    //   name: "C",        //Done
+    //   icon: c,
+    // },
     {
       name: "C++",        //Done
       icon: cplusplus,
@@ -109,6 +106,10 @@ import {
       name: "CSS3",           //Done
       icon: css,      
     },
+    // {
+    //   name: "React.js",          //Done
+    //   icon: reactjs,
+    // },
     {
       name: "React Native",       //Done
       icon: reactnative,
@@ -129,6 +130,10 @@ import {
       name: "AWS",             //Done
       icon: aws,
     },
+    // {
+    //   name: "Linux",             //Done
+    //   icon: linux,
+    // },
     {
       name: "Firebase",          //Done
       icon: firebase,
@@ -137,10 +142,10 @@ import {
       name: "Git",            //Done
       icon: git,
     },
-    {
-      name: "Docker",          //Done
-      icon: docker,
-    },
+    // {
+    //   name: "Docker",          //Done
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
@@ -252,7 +257,7 @@ import {
         },
       ],
       image: faceRecognition,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/rupin27/",
     },
     {
       name: "Connect 4 AI",
