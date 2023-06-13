@@ -56,7 +56,7 @@ const Contact = () => {
       <motion.div variants={slideIn('left', 'tween', 0.2, 1)} className='flex-[0.75] bg-black-100 p-8 rounded-2xl'>
         <p className={styles.sectionSubText}> Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
-        <div className="flex flex-row gap-5">
+        <div className="mt-4 flex flex-row gap-5">
           <div onClick={() => window.open("https://github.com/rupin27", "_blank")} className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'>
             <img src={github} alt='source code' className='w-1/2 h-1/2 object-contain'/>
           </div>
