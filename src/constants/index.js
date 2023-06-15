@@ -4,6 +4,7 @@ import {
     creator,
     web,
     nara,
+    genAIrtify,
     faceRecognition,
     connect4,
     javascript,
@@ -260,25 +261,25 @@ import {
       source_code_link: "https://github.com/rupin27/",
     },
     {
-      name: "Connect 4 AI",
+      name: "GenAIrtify",
       description:
-        "Connect AI is a Python-based app that enhances the game of Connect 4. It utilizes advanced algorithms to develop intelligent gameplay agents, optimizing decision-making capabilities for an enhanced gaming experience.",
+        "GenAIrtify is a MERN stack-based solution that empowers users to generate lifelike images through text inputs. OpenAI's cutting-edge DALL-E model is integrated to provide unparalleled creativity in image generation, alongside an engaging user experience.",
       tags: [
         {
-          name: "python",
+          name: "MERN stack",
           color: "blue-text-gradient",
         },
         {
-          name: "heuristic",
+          name: "OpenAI",
           color: "green-text-gradient",
         },
         {
-          name: "α-β pruning",
+          name: "Cloudinary",
           color: "pink-text-gradient",
         },
       ],
-      image: connect4,
-      source_code_link: "https://github.com/rupin27/connect",
+      image: genAIrtify,
+      source_code_link: "https://github.com/rupin27/GenAIrtify",
     },
   ];
   

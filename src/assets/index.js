@@ -10,6 +10,7 @@ import instagram from "./instagram.png";
 import connect4 from "./connect4.png";
 import faceRecognition from "./faceRecognition.png";
 import nara from "./nara.png";
+import genAIrtify from "./genAirtify.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -61,6 +62,7 @@ export {
   close,
   connect4,
   nara,
+  genAIrtify,
   faceRecognition,
   css,
   docker,
