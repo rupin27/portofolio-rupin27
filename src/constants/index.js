@@ -151,18 +151,18 @@ import {
   
   const experiences = [
     {
-      title: "Software Developer Intern",
+      title: "Software Developer",
       company_name: "Naralytics",
       icon: naralytics,
       iconBg: "#383E56",
       date: "May 2022 - Present",
       points: [
-        "Developed a React Native application with custom UI/UX components ensuring versatility and code reusability across iOS and Android platforms and, more importantly, improving performance by reducing load-time by ~4s.",
-        "Introduced a login authentication flow and payment setup using Firebase for Google-backed security.",
+        "Lead a team of 5 developing a React Native application with custom UI/UX components increasing code reusability and versatility across iOS and Android platforms, alongside improving performance by reducing load-time by ~4s.",
+        "Introduced a login authentication flow and payment setup using Firebase GCP, optimized for Google-backed SaaS security.",
+        "Accomplished 75% reduction in deployment time and 80% increase in development-to-production efficiency by orchestrating CI/CD processes employing Jenkins, Kubernetes, and Docker.",
         "Notable: Emotional Recognition and Sentimental Analysis BERT Model",
-        "Developed a labeling model utilizing libraries like transformers, torch-vision, PyTorch lightning, numpy, pandas, and the BERT language model for psychometric assessments and HUMINT analysis.",
-        "Trained the model using AWS EC2 instance, effectively predicting sentiments on raw text and generating a labeled dataset with a sentiment prediction accuracy of 95%.",
-        "Conducted testing of the classifiers against reversed training data, employing multiple evaluation metrics such as Jaccard Score, Hamming Loss, F-1, and AUC.",
+        "Developed a NLP labeling model utilizing Python and libraries including transformers, torch-vision, PyTorch lightning, Scikit-learn, pandas, and the BERT language model for psychometric assessments and HUMINT analysis on raw text.",
+        "Trained the model on AWS EC2 instance, and tested the predicted sentiments and generated labeled dataset against reversed training data with evaluation metrics (Jaccard Score, F-1, AUC, Hamming Loss), achieving an accuracy of 95%.",
       ],
     },
       {
@@ -184,9 +184,9 @@ import {
       iconBg: "#E6DEDD",
       date: "May 2020 - Sep 2020",
       points: [
-        "Developed and maintained software systems and computing infrastructure utilizing Java and JavaScript, while effectively identifying and resolving defects through troubleshoots, supporting data architecture, and generating reports.",
-        "Actively participated in Agile(Scrum) methodologies, engaging in optimizing memory consumption employing techniques such as memoization and memory pooling, resulting in an enhancement in runtime performance by up to 30%.",
-        "Leveraged SQL query tools and frameworks to develop and manage database operations, ensuring efficient data storage and retrieval.",
+        "Developed and maintained software systems and back end infrastructure using Java and Typescript, while streamlining delivery with tools like Ansible and Terraform reducing instance provisioning time by 40% and deployment errors by 25%.",
+        "Proactively collaborated in Scrum, implementing integration test suites and optimizing memory consumption employing techniques such as memoization and memory pooling, increasing runtime performance by an average 30%.",
+        "Engaged in iterative stakeholder feedback while architecting and implementing a PostgreSQL database, optimizing its performance for efficient data management and retrieval.",
       ],
     },
   ];
