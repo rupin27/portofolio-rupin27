@@ -32,6 +32,7 @@ import {
     api,
     elucidata,
     naralytics,
+    spectrio,
     UMass,
     gyouReLee,
     rohitJagre,
@@ -65,7 +66,7 @@ import {
       icon: mobile,
     },
     {
-      title: "Software Developer",
+      title: "AI / ML",
       icon: backend,
     },
     {
@@ -151,11 +152,26 @@ import {
   
   const experiences = [
     {
+      title: "Software Engineer",
+      company_name: "Spectrio",
+      icon: spectrio,
+      iconBg: "#383E56",
+      date: "Sep 2023 - Present",
+      points: [
+        "Spearhead the modernization and enhancement initiatives for a diverse portfolio of applications catering to clients such as Microsoft, Google, HP, Subway, and Exxon Mobil, utilizing React, PHP, and Angular technologies.",
+        "Play a pivotal role in streamlining and optimizing applications to meet the customers’ digital signage needs.",
+        "Spearhead improvements in Little Caesars International app, emphasizing user experience and efficiency by optimizing memory consumption, implementing O(1) time complexity garbage collection, and refining functionality, resulting in a 70% reduction in user-reported issues and workload after relaunch.",
+        "Notable: Docker Image for Sandbox Environment",
+        "Developed and implemented a Docker image for a sandbox environment, configuring a CentOS7 environment with background services like Apache, Squid, and MariaDB, resulting in a significant reduction in development time and improved application setup.",
+        "Achieved a long-standing company goal by reducing development time and enhancing application setup, accomplishing in one month what had eluded the company for the past 7 years.",
+      ],
+    },
+    {
       title: "Software Developer",
       company_name: "Naralytics",
       icon: naralytics,
       iconBg: "#383E56",
-      date: "May 2022 - Present",
+      date: "May 2022 - Sep 2023",
       points: [
         "Lead a team of 5 developing a React Native application with custom UI/UX components increasing code reusability and versatility across iOS and Android platforms, alongside improving performance by reducing load-time by ~4s.",
         "Introduced a login authentication flow and payment setup using Firebase GCP, optimized for Google-backed SaaS security.",

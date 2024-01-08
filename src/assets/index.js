@@ -40,6 +40,7 @@ import aws from "./tech/aws.png"
 import api from "./tech/api.png"
 
 import naralytics from "./company/naralytics.png"
+import spectrio from "./company/spectrio.png"
 import elucidata from "./company/elucidata.png"
 import UMass from "./company/UMass.png"
 import gyouReLee from "./company/gyouReLee.jpeg"
@@ -89,6 +90,7 @@ export {
   aws,
   api,
   naralytics,
+  spectrio,
   UMass,
   gyouReLee,
   rohitJagre,
